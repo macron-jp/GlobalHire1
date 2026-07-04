@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Find Jobs | GlobalHire</title>
+
+<link rel="stylesheet" href="./style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-earth-asia"></i>
+
+GlobalHire
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="jobs.html" class="active">Jobs</a></li>
+
+<li><a href="#">Companies</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+<div class="nav-btn">
+
+<button class="theme-btn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<a href="login.html" class="login-btn">Login</a>
+
+<a href="register.html" class="register-btn">Register</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero" style="margin-top:120px;">
+
+<div class="hero-text">
+
+<h1>Find Your Next Overseas Job</h1>
+
+<p>
+
+Search thousands of verified international opportunities.
+
+</p>
+
+<div class="search-box">
+
+<input
+id="searchInput"
+type="text"
+placeholder="Search by job title...">
+
+<select id="countryFilter">
+
+<option value="all">All Countries</option>
+
+<option>Japan</option>
+
+<option>South Korea</option>
+
+<option>Singapore</option>
+
+<option>Germany</option>
+
+<option>UAE</option>
+
+</select>
+
+<button id="searchBtn">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Search
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="featured">
+
+<h2>Latest Jobs</h2>
+
+<div class="jobs" id="jobContainer">
+
+<!-- Card 1 -->
+
+<div class="job" data-country="Japan">
+
+<h3>Software Engineer</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Tech Solutions
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Tokyo, Japan
+
+</p>
+
+<span>$5,500/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="job" data-country="Japan">
+
+<h3>Caregiver</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Sakura Care
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Osaka, Japan
+
+</p>
+
+<span>$2,400/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="job" data-country="Germany">
+
+<h3>Welder</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Euro Steel
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Berlin, Germany
+
+</p>
+
+<span>$3,900/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+<!-- Card 4 -->
+
+<div class="job" data-country="Singapore">
+
+<h3>Hotel Receptionist</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Marina Hotel
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Singapore
+
+</p>
+
+<span>$2,800/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+<!-- Card 5 -->
+
+<div class="job" data-country="South Korea">
+
+<h3>Factory Worker</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Korea Manufacturing
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Seoul
+
+</p>
+
+<span>$2,700/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+<!-- Card 6 -->
+
+<div class="job" data-country="UAE">
+
+<h3>Electrician</h3>
+
+<p>
+
+<i class="fa-solid fa-building"></i>
+
+Dubai Energy
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Dubai
+
+</p>
+
+<span>$3,300/month</span>
+
+<a href="job-details.html">
+
+<button>View Details</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 GlobalHire
+
+</p>
+
+</footer>
+
+<script src="jobs.js"></script>
+
+</body>
+
+</html>
